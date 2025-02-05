@@ -6,15 +6,14 @@
 
         "ReplicatedStorage": {
             "$className": "ReplicatedStorage",
-            "$path": "ReplicatedStorage",
-            "Package": {
-                "$path": "src",
-                "Packages": {
-                    "$path": "Packages"
-                },
-                "DevPackages": {
-                    "$path": "DevPackages"
+            "Packages": {
+                "$path": "Packages",
+                "Package": {
+                    "$path": "src"
                 }
+            },
+            "DevPackages": {
+                "$path": "DevPackages"
             }
         },
         "ServerScriptService": {
